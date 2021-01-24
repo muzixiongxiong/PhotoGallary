@@ -9,7 +9,6 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PhotoGallaryAPI.Dal;
-using PhotoGallaryAPI.Dal.Repositories;
 using PhotoGallaryAPI.Interfaces;
 using System;
 using System.Collections.Generic;

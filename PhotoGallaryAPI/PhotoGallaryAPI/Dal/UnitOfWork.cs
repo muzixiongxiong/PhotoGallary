@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Hosting;
+using PhotoGallaryAPI.Dal.Repositories;
 using PhotoGallaryAPI.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PhotoGallaryAPI.Dal.Repositories
+namespace PhotoGallaryAPI.Dal
 {
     public class UnitOfWork : IUnitOfWork
     {
